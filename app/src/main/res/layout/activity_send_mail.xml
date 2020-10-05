@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacround_gradient"
+    android:orientation="vertical"
+
+    android:padding="4dp"
+    tools:context="com.awsome.BarUp.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bacround_gradient" />
+
+    <EditText
+        android:id="@+id/etTo"
+        android:textColor="@color/colorText"
+        android:backgroundTint="@color/colorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Empfänger Email Adresse"
+        android:inputType="textEmailAddress"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etSubject"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorText"
+        android:backgroundTint="@color/colorText"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Betreff"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorText"
+        android:backgroundTint="@color/colorText"
+        android:gravity="top|start"
+        android:hint="Verfasse eine Nachricht"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btSend"
+        android:background="@drawable/circle_shape"
+        android:textStyle="bold"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorText"
+
+        android:layout_marginRight="10dp"
+        android:text="Senden" />
+
+
+</LinearLayout>

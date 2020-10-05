@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#020202</color>
+    <color name="colorPurple">#3700B3</color>
+    <color name="TextColor">#2D46D1</color>
+    <color name="colorRed">#E31717</color>
+    <color name="colorWhite">#CECED6</color>
+    <color name="orange">#FB4E41</color>
+
+    <!-- Light Mode-->
+
+    <color name="colorText">#FAFAFB</color>
+    <color name="colorBackground">#0F0F10</color>
+
+
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/passwordChange"
+        android:layout_width="match_parent"
+
+        android:textColor="@color/colorText"
+        android:textStyle="bold"
+android:background="@drawable/circle_shape"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="Standart Email/Passwort ändern" />
+
+    <Button
+        android:id="@+id/btncopy"
+        android:textColor="@color/colorText"
+android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/circle_shape"
+        android:text="Text in Zweischenablage kopieren" />
+
+    <Button
+        android:id="@+id/btnMailsend"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorText"
+        android:background="@drawable/circle_shape"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Text als Mail verschicken" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorText"
+        android:textStyle="bold"
+android:layout_gravity="center"
+        android:background="@color/colorWhite"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
